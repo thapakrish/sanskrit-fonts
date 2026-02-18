@@ -9,3 +9,14 @@ packages/aur
 packages/*.tar.gz
 packages/*.tar.xz
 
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.synctex.gz
