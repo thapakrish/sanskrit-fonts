@@ -1,5 +1,6 @@
 *.iml
 
+*local*
 # Arch linux packaging.
 packages/releases
 packages/pkg
