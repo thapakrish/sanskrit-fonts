@@ -1,0 +1,73 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{margin=2cm}
+
+\setmainfont{NotoSansLatIndic}[
+  Path = ../../fonts/ttf-misc/NotoSansLatIndic/,
+  Extension = .ttf,
+  UprightFont = *-Regular,
+  BoldFont = *-Bold,
+]
+
+\title{NotoSansLatIndic --- Merged Font Test}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Latin}
+The quick brown fox jumps over the lazy dog. \\
+\textbf{Bold: The quick brown fox jumps over the lazy dog.}
+
+\section{Devanagari}
+धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। \\
+\textbf{Bold: धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।}
+
+Conjunct test: क्ष त्र ज्ञ श्र द्ध क्र
+
+\section{Tamil}
+தர்மம் என்றால் கடமை. கர்மா என்பது செயல். \\
+\textbf{Bold: தர்மம் என்றால் கடமை.}
+
+\section{Telugu}
+కర్మ అంటే చర్య. ధర్మం అంటే కర్తవ్యం. \\
+\textbf{Bold: కర్మ అంటే చర్య.}
+
+\section{Kannada}
+ಕರ್ಮ ಎಂದರೆ ಕ್ರಿಯೆ. ಧರ್ಮ ಎಂದರೆ ಕರ್ತವ್ಯ. \\
+\textbf{Bold: ಕರ್ಮ ಎಂದರೆ ಕ್ರಿಯೆ.}
+
+\section{Bengali}
+কর্ম মানে কাজ। ধর্ম মানে কর্তব্য। \\
+\textbf{Bold: কর্ম মানে কাজ।}
+
+\section{Malayalam}
+കർമ്മം എന്നാൽ പ്രവൃത്തി. ധർമ്മം എന്നാൽ കർത്തവ്യം. \\
+\textbf{Bold: കർമ്മം എന്നാൽ പ്രവൃത്തി.}
+
+\section{Gujarati}
+કર્મ એટલે ક્રિયા. ધર્મ એટલે ફરજ. \\
+\textbf{Bold: કર્મ એટલે ક્રિયા.}
+
+\section{Gurmukhi}
+ਕਰਮ ਦਾ ਮਤਲਬ ਕੰਮ। ਧਰਮ ਦਾ ਮਤਲਬ ਫ਼ਰਜ਼। \\
+\textbf{Bold: ਕਰਮ ਦਾ ਮਤਲਬ ਕੰਮ।}
+
+\section{Oriya}
+କର୍ମ ମାନେ କ୍ରିୟା। ଧର୍ମ ମାନେ କର୍ତ୍ତବ୍ୟ। \\
+\textbf{Bold: କର୍ମ ମାନେ କ୍ରିୟା।}
+
+\section{Mixed Script Paragraph}
+The word \textbf{dharma} (धर्म / தர்மம் / ధర్మం / ಧರ್ಮ / ধর্ম / ധർമ്മം / ધર્મ / ਧਰਮ / ଧର୍ମ)
+appears across all major Indian languages. The concept of कर्म (karma) is central to
+Indian philosophy. In Tamil, it is written as கர்மா and in Telugu as కర్మ.
+
+\section{Numbers}
+Latin: 0 1 2 3 4 5 6 7 8 9 \\
+Devanagari: ० १ २ ३ ४ ५ ६ ७ ८ ९ \\
+Bengali: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ \\
+Tamil: ௦ ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯
+
+\end{document}
