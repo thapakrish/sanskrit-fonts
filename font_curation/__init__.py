@@ -49,6 +49,7 @@ SCRIPT_FONT_DIRS = {
   "Sinhala": "ttf-sinhala",
   "Tamil": "ttf-tamil",
   "Telugu": "ttf-telugu",
+  "symbols": "symbols",
 }
 
 # Base URL for downloading static hinted Noto Sans TTFs from GitHub.
